@@ -199,6 +199,11 @@ input, select, textarea {
 		height: 1px;
 		margin: 3em 0;
 	}
+	p{
+		color: #000000;	
+		margin-bottom: 2em;
+	}
+
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
@@ -1659,7 +1664,34 @@ input, select, textarea {
 			}
 
 /* Button */
-
+	.download-cv-button {
+		margin-left: 30px;
+		margin-top: 60px;
+	}
+	
+	.example_e {
+		border: none;
+		background: #404040;
+		color: #ffffff;
+		font-weight: 100;
+		padding: 20px;
+		text-transform: uppercase;
+		border-radius: 6px;
+		text-decoration: none;
+		display: inline-block;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.example_e:hover {
+		color: #202020;
+		text-decoration: none;
+		font-weight: 700;
+		letter-spacing: 2px;
+		background: none;
+		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+		transition: all 0.3s ease 0s;
+	}		
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -1994,8 +2026,12 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
+			background-image: url("../../images/background.jpg");
+			/* filter: blur(8px); */
+			background-size:     cover;                      /* <------ */
+    		background-repeat:   no-repeat;
+    		background-position: center center;   
+			/* background-color: #fff; */
 		}
 
 		.wrapper.style2 {
