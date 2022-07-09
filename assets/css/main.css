@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  */
 
 /*
 	Miniport by HTML5 UP
@@ -110,12 +112,12 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #43B3E0;
+		color: inherit;
 		text-decoration: underline;
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: inherit !important;
 		}
 
 		a img {
@@ -1798,6 +1800,11 @@ input, select, textarea {
 		}
 
 /* Social */
+
+	.fa-linkedin {  
+		background: #007bb5;  
+		color: white;  
+	}  
 
 	ul.social {
 		cursor: default;
