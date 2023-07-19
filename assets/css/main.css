@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  */
 
 /*
@@ -229,8 +231,24 @@ input, select, textarea {
 		footer > p {
 			font-size: 1.25em;
 		}
+/* Grid Container */
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2px;
+		text-align: center;
+		/* background-color: #0062DB; */
+	}
+	
 
 /* Container */
+	.container_LA {
+		margin: 0 auto;
+		max-width: calc(100% - 50px);
+		/* width: 1000px; */
+		text-align: left;
+	}
+
 
 	.container {
 		margin: 0 auto;
@@ -1688,11 +1706,11 @@ input, select, textarea {
 	}
 	
 	.example_e:hover {
-		color: #202020;
+		color: #ff0000;
 		text-decoration: none;
 		font-weight: 700;
 		letter-spacing: 2px;
-		background: none;
+		background: #404040;
 		-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 		-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 		transition: all 0.3s ease 0s;
@@ -2029,14 +2047,19 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		/* background-image: url("images/bg.png"); */
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: left;
 	}
 
 		.wrapper.style1 {
-			background-image: url("../../images/graph-cover-gib-v-1.jpg");
+			background-image:     
+			linear-gradient(
+				rgba(0, 0, 0, 0.5),
+				rgba(0, 0, 0, 0.5)
+			  ), 
+			  url("images/GraphBG1.jpg");
 			/* filter: blur(8px); */
 			background-size:     cover;                      /* <------ */
     		background-repeat:   no-repeat;
@@ -2047,17 +2070,20 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			text-align: left;
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
+			text-align: left;
 		}
 
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
+			text-align: center;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
