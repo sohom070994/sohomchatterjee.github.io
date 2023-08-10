@@ -39,6 +39,7 @@ body {
 
 ol, ul {
 	list-style: none;
+	color: #000000;
 }
 
 blockquote, q {
@@ -211,6 +212,7 @@ input, select, textarea {
 	}
 
 
+
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 	}
@@ -244,9 +246,11 @@ input, select, textarea {
 /* Container */
 	.container_LA {
 		margin: 0 auto;
-		max-width: calc(100% - 50px);
+		max-width: calc(100% - 20px);
 		/* width: 1000px; */
-		text-align: left;
+		text-align: center;
+		background-color:  #8AC7DB;
+		border-radius: 25px;
 	}
 
 
@@ -1604,6 +1608,7 @@ input, select, textarea {
 
 	table {
 		width: 100%;
+		border: 1px
 	}
 
 		table.default {
@@ -1619,7 +1624,7 @@ input, select, textarea {
 				}
 
 			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
+				padding: 0.1em 0.1em 0.1em 0.1em;
 			}
 
 			table.default th {
@@ -2069,7 +2074,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #fafafa;
-			text-shadow: 1px 1px 0px #fff;
+			/* text-shadow: 1px 1px 0px #fff; */
 			text-align: left;
 		}
 
@@ -2080,7 +2085,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			background-color: #414141;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 			text-align: center;
@@ -2212,7 +2217,7 @@ input, select, textarea {
 /* Copyright */
 
 	#copyright {
-		color: #666;
+		color: #525252;
 		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
