@@ -11,6 +11,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
+			header {
+			margin-bottom: 0;
+			padding-bottom: 0;
+			}
+			table {
+			margin-top: 0;
+			padding-top: 0;
+			}
 			#publications ul li {
 				margin-bottom: 10px; /* Reduce the gap between list items */
 			}
@@ -18,7 +26,10 @@
 			#publications {
 				font-family: 'Roboto', sans-serif; /* Apply Roboto font to the Publications section */
 			}
-
+			/* #myTable {
+			border-collapse: separate;
+			border-spacing: 20px; /* Adjust this value for the gap between columns */
+			} */
 			.project-box {
 				border: 1px solid #ccc;
 				border-radius: 8px;
@@ -111,7 +122,7 @@
 								<h1 style="font-family: 'Roboto', sans-serif; color: rgb(253, 246, 246);"><strong style="color: rgb(253, 246, 246);">Sohom Chatterjee,</strong> Ph.D.</h1>
 							</header>
 							<p  style="font-family: 'Roboto', sans-serif; font-size:20px;color: rgb(253, 246, 246); opacity: 1;">I am a PhD graduate from the  <a href="https://engineering.tamu.edu/industrial/index.html" target="_blank" rel="noopener noreferrer"> 
-							Industrial and Systems Engineering Department</a> in Texas A&M University, specialized in the field of Operations Research. I am currently working as a Research Engineer in the Risk Analytics and Optimization lab at GE Aerospace Research. I am 
+							Industrial and Systems Engineering Department</a> in Texas A&M University, specialized in the field of Operations Research. I am currently working as a Research Engineer in the Enterprise Optimization lab at GE Aerospace Research. I am 
 							interested in the applications of large-scale discrete optimization problems, specifically healthcare and supply chain.</p>
 							<div class="download-cv-button"><a class="example_e" href="files/Sohom_Resume.pdf" target="_blank" rel="nofollow"><span>Download Resume</span></a> <a class="example_e" href="#contact"><span>Connect</span></a></div>
 						</div>
@@ -351,11 +362,11 @@
 				<header>
 					<h2><span style="font-size: 1.5em; color: gold;">&#x1F3C6;</span> Awards</h2> <!-- Added trophy-shaped bullet next to Awards -->
 				</header>
-				<table width="100%" style="table-layout: fixed;">
+				<table id="myTable" width="100%" style="table-layout: fixed;">
 					<thead>
 						<tr>
-							<th style="width: 70%;">Award Name</th>
-							<th style="width: 30%;">Date</th>
+							<th style="width: 60%;">Award Name</th>
+							<th style="width: 40%;">Date</th>
 						</tr>
 					</thead>
 					<tbody>
